@@ -1,0 +1,36 @@
+## Visual Studio / .NET .gitignore
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]ld/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+
+# Mono / VS Code / Rider
+.idea/
+.vscode/
+*.swp
+*~
+
+# NuGet
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.assets.json
+
+# Build results
+*.dll
+*.exe
+*.pdb
+*.cache
